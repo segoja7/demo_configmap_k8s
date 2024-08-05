@@ -18,7 +18,7 @@ data:
         location /api/ {
             proxy_pass http://jsonplaceholder.typicode.com/posts/;
         }
-        location /hijo/ {
+        location /videos/ {
             proxy_pass http://youtube.com/;
         }
       }
